@@ -20,7 +20,7 @@ import numpy as np
 # %%
 # loading data
 
-data=pd.read_csv(r"C:\Users\97158\Desktop\Apziva\Project 1-Customer Happiness\SRC\data\ACME-HappinessSurvey2020.csv")
+data=pd.read_csv(r"../data/ACME-HappinessSurvey2020.csv")
 
 # %%
 X=data.drop(['Y','X2','X4'],axis=1)
